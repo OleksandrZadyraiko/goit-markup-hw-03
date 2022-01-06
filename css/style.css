@@ -131,6 +131,13 @@ h6 {
 .footer {
   background: #2f303a;
 }
+.address {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
 /* .footeraddres {
 } */
 .footeraddres-list {
