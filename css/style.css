@@ -21,30 +21,29 @@ h6 {
   color: #212121;
 }
 
-.web {
-  font-family: Raleway;
+/* .nav {
+} */
+.raleway {
+  font-family: Raleway, sans-serif;
   font-weight: bold;
   font-size: 26px;
-  line-height: 1.2;
-  color: #2196f3;
   letter-spacing: 0.03em;
+}
+.logo {
+  color: #2196f3;
 }
 .studio {
-  font-family: Raleway;
-  font-weight: bold;
-  font-size: 26px;
   color: black;
-  letter-spacing: 0.03em;
 }
-.header-list {
+.nav-link {
   color: #212121;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.header-list:hover,
-.header-list:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: #2196f3;
 }
 .contact {
@@ -70,7 +69,7 @@ h6 {
   text-transform: uppercase;
   color: #fff;
 }
-.hero-title-button {
+.hero-button {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.88;
@@ -79,19 +78,19 @@ h6 {
   background: #2196f3;
   cursor: pointer;
 }
-/* .advatn {
+/* .advantage {
 } */
-.rezerv {
+.advantage-hidden-title {
   visibility: hidden;
 }
-.advatn-list {
+.advantage-title {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
 }
-.advatn-list-invent {
+.advantage-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -138,35 +137,31 @@ h6 {
   line-height: 24px;
   color: #ffffff;
 }
-/* .footeraddres {
+/* .footer-addres {
 } */
-.footeraddres-list {
+.footer-addres-list {
   font-style: normal;
 }
 
-.footerstudio {
-  font-family: Raleway;
-  font-weight: bold;
-  font-size: 26px;
+.footer-studio {
   line-height: 1.2em;
   color: #fff;
-  letter-spacing: 0.03em;
 }
-.footeraddres {
+.footer-addres {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #fff;
 }
-.footercontact {
+.footer-contact {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.footercontact:hover,
-.footercontact:focus {
+.footer-contact:hover,
+.footer-contact:focus {
   color: #2196f3;
 }
 

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Главная</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css" />
@@ -12,46 +12,47 @@
 <body>
         <!-- Шапка сайта -->
         <header>
-            <nav>
-                <a href="./index.html" class="web">Web<span class="studio">Studio</span></a>
-                <ul>
-                    <li><a href="./index.html" class="header-list">Студия</a></li>
-                    <li><a href="./portfolio.html" class="header-list">Портфолио</a></li>
-                    <li><a href="" class="header-list">Контакты</a></li>
+            <nav class="nav">
+                <a href="./index.html" class="logo raleway">Web<span class="studio raleway">Studio</span></a>
+                            <ul class="nav-list">
+                    <li class="nav-item"><a href="./index.html" class="nav-link">Студия</a></li>
+                    <li class="nav-item"><a href="./portfolio.html" class="nav-link">Портфолио</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Контакты</a></li>
                 </ul>
-            </nav>
+
                 <ul>
-                    <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                    <li><a href="mailto:info@devstudio.com" class="contact">info@devstudio.com</a></li>
+                    <li><a href="tel:+380961111111" class="contact">+38 096 111 11 11</a></li>
                 </ul>
+                </nav>
         </header>
         
         <main>
             <!-- Пусть будет Герой -->
             <section class="hero">
                 <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-               <button type="button" class="hero-title-button">Заказать услугу</button>
+               <button type="button" class="hero-button">Заказать услугу</button>
             </section>
         
             <!-- Преимущества -->
-            <section class="advant">
-                <h2 class="rezerv">Резерв</h2>
-                <ul>
-                    <li>
-                        <h3 class="advatn-list">Внимание к деталям</h3>
-                        <p class="advatn-list-invent">Идейные соображения, а также начало повседневной работы по формированию позиции. </p>
+            <section class="advantage">
+                <h2 class="advantage-hidden-title">Резерв</h2>
+                <ul class="advantage-list">
+                    <li class="advantage-item">
+                        <h3 class="advantage-title">Внимание к деталям</h3>
+                        <p class="advantage-text">Идейные соображения, а также начало повседневной работы по формированию позиции. </p>
                     </li>
-                    <li>
-                        <h3 class="advatn-list">Пунктуальность</h3>
-                        <p class="advatn-list-invent">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                    <li class="advantage-item">
+                        <h3 class="advantage-title">Пунктуальность</h3>
+                        <p class="advantage-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                     </li>
-                    <li>
-                        <h3 class="advatn-list">Планирование</h3>
-                        <p class="advatn-list-invent">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                    <li class="advantage-item">
+                        <h3 class="advantage-title">Планирование</h3>
+                        <p class="advantage-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                     </li>
-                    <li>
-                        <h3 class="advatn-list">Современные технологии</h3>
-                        <p class="advatn-list-invent">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                    <li class="advantage-item">
+                        <h3 class="advantage-title">Современные технологии</h3>
+                        <p class="advantage-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
                 </ul>
             </section>
@@ -98,9 +99,9 @@
         </main>
         <!-- Футер -->
         <footer class="footer">
-            <a href="./index.html" class="web">Web<span class="footerstudio">Studio</span></a>
-            <address class="footeraddres">
-            <ul class="footeraddres-list">
+            <a href="./index.html" class="raleway logo">Web<span class="footer-studio raleway">Studio</span></a>
+            <address class="footer-addres">
+            <ul class="footer-addres-list">
                 <li><a href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.426602,30.5376124,18.5z/data=!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858" class="address">г. Киев, пр-т Леси Украинки, 26</a></li>
                 <li><a href="mailto:info@devstudio.com" class="contact">info@devstudio.com</a></li>
                 <li><a href="tel:+380961111111" class="contact">+38 096 111 11 11</a></li>
